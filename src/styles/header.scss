@@ -1,0 +1,32 @@
+header{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 16px;
+    position: fixed;
+
+    .logo-holder {
+        margin: 16px 0;
+        .my-logo {
+            width: 50px;
+            margin: 0 auto;
+        }
+    }
+
+    nav {
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+
+            li{
+                display: inline-block;
+                font-weight: 900;
+                text-transform: uppercase;
+                letter-spacing: 0.5px;
+                font-size: 0.875em;
+            }
+        }
+    }
+}

@@ -1,0 +1,196 @@
+#projects {
+    width: 100%;
+    position: relative;
+    height: 1000px;
+
+    // #project-list {
+    //     list-style: none;
+    //     padding: 0;
+    //     z-index: 999;
+
+    //     li {
+    //         font-size: 5em;
+    //         font-weight: 900;
+    //         letter-spacing: 2px;
+    //         text-transform: uppercase;
+    //         opacity: 0.5;
+    //     }
+
+    //     li:hover {
+    //         opacity: 1;
+    //         cursor: pointer;
+    //     }
+    // }
+
+    // .showcase-image {
+    //     position: absolute;
+    //     width: 80%;
+    //     left: 50%;
+    //     transform: translateX(-50%);
+       
+    //     img {
+    //         width: 100%
+    //     }
+    // }
+
+    .project-list{
+        
+        list-style: none;
+        padding: 0;
+
+        li {
+            margin-bottom: 90px;
+
+            .feature-container  {
+
+                .text-container {
+                    background: $Black;
+                    display: inline-block;
+                    width: 90%;
+                    position: relative;
+                    top: -15px;
+
+
+                    .text-group {
+                        padding: 30px;
+                        color: White;
+
+                        h2 {
+                            font-size: 1.5em;
+                            text-transform: initial;
+                        }
+                        p {
+                            padding: 15px 0 30px 0;
+                            font-size: 0.813em;
+                        }
+                        .case-study-button {
+
+                            span {
+                            font-size: 0.813em;
+                            cursor: pointer;
+                            text-transform: uppercase;
+                            letter-spacing: 1px;
+                            }
+
+                            &:hover {
+
+                            }
+
+                        }
+                    }
+                }
+        
+                .feature-image {
+                    width: 90%;
+                    float: right;
+
+                    img {
+                        width: 100%;
+                        display: block;
+                    }
+                }
+            }
+        }
+        
+        li:nth-child(even){
+            .feature-container {
+                flex-direction: row-reverse;
+            }
+        }
+    }
+
+
+    @media only screen and (min-width: 451px){
+        .project-list {
+
+            li {
+                
+                .feature-container {
+                    width: 100%;
+                    
+                    .text-container {
+                        width: 50%;
+                        top: -50px;
+                    }
+
+                    .feature-image {
+                        width: 80%;
+
+                        img {
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+    @media only screen and (min-width:768px){
+
+        .project-list {
+
+            li {
+
+                .feature-container {
+                    position: relative;
+
+                    .text-container {
+                        position: absolute;
+                        top: 50%;
+                        transform: translateY(50%);
+
+                        .text-group {
+
+                            h2{
+                                font-size: 2.5em;
+                            }
+
+                            p{
+                                font-size: 1em;
+                            }
+                        }
+
+                    }
+
+                    .feature-image {
+                        display:inline-block;
+                    }
+                }
+            }
+        }
+    }
+
+    @media only screen and (min-width: 1024px) {
+        .project-list {
+
+            li {
+
+                .feature-container {
+                    position: relative;
+
+                    .text-container {
+                        width: 40%;
+                        position: absolute;
+                        padding: 60px 30px;
+
+                        .text-group {
+
+                            h2{
+                                font-size: 3em;
+                            }
+
+                            p{
+                                font-size: 1em;
+                            }
+                        }
+
+                    }
+
+                    .feature-image {
+                        display:inline-block;
+                    }
+                }
+            }
+        }
+    }
+}
