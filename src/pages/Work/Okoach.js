@@ -4,7 +4,7 @@ import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 
 import Hero from "../../images/projects/okoach/Okoach_Hero.jpg"
-
+import FullWidthOne from "../../images/projects/okoach/Okoach_FullWidth_1.jpg"
 import Persona from "../../images/projects/okoach/Okoach_Persona.jpg"
 import AppMap from "../../images/projects/okoach/Okoach_AppMap.jpg"
 import Wireframes from "../../images/projects/okoach/Okoach_Wireframes.jpg"
@@ -54,12 +54,12 @@ const Okoach = () => (
 
         <div className="project-section">
             <h3 className="sub-title">Solution</h3>
-            <p>Lorem ipsum dolor</p>
+            <p>The solution was to Okoach, a mobile app puts all the communcation channels of online training onto your mobile. Coaches and athletes will be able to use it during the sessions and always stay on track with their training.</p>
         </div>
     </div>
 
     <div className="full-width-image">
-        <img src="" alt ="Okoach Screenshots"/>
+        <img src={FullWidthOne} alt ="Okoach Screenshots"/>
     </div>
 
     <div className="container">
@@ -120,7 +120,7 @@ const Okoach = () => (
 
         <div className="project-section">
             <h3 className="sub-title">Development Process</h3>
-            <p>To test my front-end skills, the Okoach screens were converted into an app using React Native, using tools such as Styled Components for styling and Git for version control. You can see the repo <a href="https://github.com/Gabeoli/Okoach" target="_blank">here</a>.</p>
+            <p>To test my front-end skills, the Okoach screens were converted into an app using React Native, using tools such as Styled Components for styling and Git for version control. You can see the repo <a href="https://github.com/Gabeoli/Okoach" target="_blank" rel="noopener noreferrer">here</a>.</p>
         </div>
 
         <div className="project-section">
