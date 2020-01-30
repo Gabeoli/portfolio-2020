@@ -1,37 +1,6 @@
 #projects {
     width: 100%;
     position: relative;
-    height: 1000px;
-
-    // #project-list {
-    //     list-style: none;
-    //     padding: 0;
-    //     z-index: 999;
-
-    //     li {
-    //         font-size: 5em;
-    //         font-weight: 900;
-    //         letter-spacing: 2px;
-    //         text-transform: uppercase;
-    //         opacity: 0.5;
-    //     }
-
-    //     li:hover {
-    //         opacity: 1;
-    //         cursor: pointer;
-    //     }
-    // }
-
-    // .showcase-image {
-    //     position: absolute;
-    //     width: 80%;
-    //     left: 50%;
-    //     transform: translateX(-50%);
-       
-    //     img {
-    //         width: 100%
-    //     }
-    // }
 
     .project-list{
         
@@ -39,6 +8,7 @@
         padding: 0;
 
         li {
+            display:inline-block;
             margin-bottom: 90px;
 
             .feature-container  {
@@ -64,6 +34,12 @@
                             font-size: 0.813em;
                         }
                         .case-study-button {
+
+                            a {
+                                color: White;
+                                text-decoration: none;
+                                cursor: pointer;    
+                            }
 
                             span {
                             font-size: 0.813em;
@@ -116,8 +92,6 @@
                     .feature-image {
                         width: 80%;
 
-                        img {
-                        }
                     }
 
                 }
