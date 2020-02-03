@@ -5,8 +5,10 @@ class HeroSection extends Component {
         return (
             <section className="hero center-center-aligned">
                     <div id="hero-text">
-                        <h2>Gabriel</h2>
-                        <h1>Product Designer</h1>
+                        <h2>Gabriel Dean Olivar.</h2>
+                        <h1>Product + UX Designer.</h1>
+                        
+                        <p className="big-text">Tackling problems through design with a user-centered approach.</p>
                     </div>
             </section>
         )

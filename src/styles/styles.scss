@@ -4,6 +4,8 @@
 @import 'hero';
 @import 'projects';
 @import 'project-page';
+@import 'contact';
+@import 'footer';
 
 html, body {
     width: 100%;
@@ -33,7 +35,7 @@ a {
 }
 
 .container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     padding: 0 16px;
     max-width: 1160px;

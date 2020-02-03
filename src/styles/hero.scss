@@ -5,13 +5,38 @@
     #hero-text{
         width: 100%;
         
-        h1 {
-            font-size: 1.5em;
-            font-weight: 300;
+        h1, h2 {
+            font-size: 1.25em;
+            font-weight: 900;
         }
 
-        h2{
-            font-weight: 900;
+
+        .big-text {
+            margin-top: 30px;
+            font-weight: 300;
+            font-size: 1.25em;
+            line-height: 20px;
+            color: $TitleGrey;
+        }
+    }
+
+    @media only screen and (min-width: 768px){
+        height: 80vh;
+    }
+
+    @media only screen and (min-width:1024px) {
+        height: 70vh;
+
+        #hero-text {
+            
+            h1, h2 {
+                font-size: 2.5em;
+            }
+
+            .big-text {
+                font-size: 2em;
+                line-height: 40px;
+            }
         }
     }
 }
