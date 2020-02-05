@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: ` Portfolio - Gabriel Dean Olivar`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `UX + Product design portfolio by Gabriel Dean Olivar.`,
+    author: `Gabriel Dean Olivar`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
