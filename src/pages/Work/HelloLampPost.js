@@ -31,7 +31,7 @@ const GBKCareers = () => (
 
     <div className="container">
         <div className="background-text">
-            <p>Hello Lamp Post aims to improve public engagement with clients working with the public and private sector. A website is an integral part of conveying information to potential clients.</p>
+            <p>Hello Lamp Post aims to improve public engagement with clients working with the public and private sector. The website is an integral part of conveying information to potential clients.</p>
         </div>
 
         <div className="project-details">
