@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: ` Portfolio - Gabriel Dean Olivar`,
-    description: `UX + Product design portfolio by Gabriel Dean Olivar.`,
+    description: `A product designer portfolio website by Gabriel Dean Olivar. Work ranging from UX, graphic design, front-end development and branding.`,
     author: `Gabriel Dean Olivar`,
   },
   plugins: [
