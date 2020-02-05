@@ -12,13 +12,13 @@ class ProjectList extends Component {
 
         return (
             <ul className="project-list">
-                <ProjectListItem
+                {/* <ProjectListItem
                     feature={HLPFeature}
                     projectName="Hello Lamp Post"
                     link="HelloLampPost"
                 >
                     Website Re-Design & Brand Refresh
-                </ProjectListItem>
+                </ProjectListItem> */}
 
                 <ProjectListItem
                     feature={StampFeature}
