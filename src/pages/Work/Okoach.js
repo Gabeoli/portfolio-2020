@@ -66,12 +66,12 @@ const Okoach = () => (
 
         <div className="project-section">
             <h3 className="sub-title">Research</h3>
-            <p>The main forms of research conducted were interviews and questionnaires. I interviewed coaches that have experience with clients ranging from beginners to professional athletes. They explained their process and how they managed data where the most common tool was an Excel Spreadsheet which was a good form of organisation post and pre training, however, hard to use during.</p>
+            <p>The main forms of research conducted were interviews and questionnaires. I interviewed coaches that have experience with clients ranging from beginners to professional athletes. They explained their process and how they managed data where the most common tool was an Excel Spreadsheet which was a good form of organisation post and pre-training, however, hard to use during.</p>
         </div>
 
         <div className="image-holder">
             <h3 className="sub-title">Persona</h3>
-            <p>From the interviews and survey results, a persona was created that represented both a coach and an athlete which will be the main demographic for Okoach. This outlined the users goals.</p>
+            <p>From the interviews and survey results, a persona was created that represented both a coach and an athlete which will be the main demographic for Okoach. This outlined the user's goals.</p>
             <img src={Persona} alt="Persona"/>
         </div>
 
@@ -125,9 +125,9 @@ const Okoach = () => (
 
         <div className="project-section">
             <h3 className="sub-title">Reflection</h3>
-            <p>This was my final year project for university where I combined a hobby of mine with the profession I want to get involved with. This project was an interesting challenge as it was the first time taking something from an idea, researching the feasability and finally designing and developing it.</p>
+            <p>This was my final year project for university where I combined a hobby of mine with the profession I want to get involved with. This project was an interesting challenge as it was the first time taking something from an idea, researching the feasibility and finally designing and developing it.</p>
 
-            <p>My main takeaway from this is that I really enjoying the process of creating a product. My challenges mainly came from the development stage as I was learning while I was coding. But once I finished the project, I learnt React which is a skill that is pretty valubale today in tech.</p>
+            <p>My main takeaway from this is that I really enjoy the process of creating a product. My challenges mainly came from the development stage as I was learning while I was coding. But once I finished the project, I learnt to React which is a skill that is pretty valuable today in tech.</p>
         </div>
     </div>
   </Layout>

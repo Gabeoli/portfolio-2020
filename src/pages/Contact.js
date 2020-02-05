@@ -6,10 +6,14 @@ import SEO from "../components/seo"
 const Contact = () => (
   <Layout>
     <SEO title="Contact" />
-    <div className="container">
-        <h1><i>Collaboration?</i> Collaboration.</h1>
-        <h2>Shoot me an email if you're interested in having a chat.</h2>
-        <h1>gd.olivar@gmail.com</h1>
+    <div className="contact-page">
+      <div className="container">
+        <div className="centered-text">
+          <h1>Collaboration? Collaboration.</h1>
+          <p className="big-text">Shoot me an email if you're interested in having a chat.</p>
+          <p className="email">gd.olivar@gmail.com</p>
+        </div>
+      </div>
     </div>
   </Layout>
 )

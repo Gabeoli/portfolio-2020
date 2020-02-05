@@ -55,7 +55,7 @@ const Stamp = () => (
 
         <div className="project-section" id="solution">
             <h3 className="sub-title">Solution</h3>
-            <p>Gamification, more specifically, the form of player vs player (PvP) is key motivator within sport. Putting runners head to head would boost motivation therfore improving performance. The main challenge was to make users think more about beating other players instead of the action of running so that their main focus is enjoyment rather than "I need to get fitter". This is where the implementation of common board game mechanic known as "Area Control" was introduced to shift the focus away from the chore of running.</p>
+            <p>Gamification, more specifically, the form of player vs player (PvP), is a key motivator within sports. Putting runners head to head would boost motivation, therefore, improving performance. The main challenge was to make users think more about beating other players instead of the action of running so that their main focus is enjoyment rather than "I need to get fitter". This is where the implementation of common board game mechanic known as "Area Control" was introduced to shift the focus away from the chore of running.</p>
         </div>
     </div>
 
@@ -66,7 +66,7 @@ const Stamp = () => (
     <div className="container">
         <div className="project-section">
             <h3 className="sub-title">Research</h3>
-            <p>To learn more about the demographic for this idea, I created a simple quantitive survey for people with ranging running abilites, zero experience to competitve runners. The results provided an age range for the demographic and that many people have an good aptitude for using technology. The survey also confirmed assumptions about enjoyment and motivation with <strong>61.3%</strong> of people scoring 5 or lower out of 10, 10 being highly motivated to run. A persona based on the results can be created to help understand the user goals and frustrations and outline design/system requirements, experience maps and a service blueprint to aid the design.</p>
+            <p>To learn more about the demographic for this idea, I created a simple quantitive survey for people with ranging running abilities, zero experience to competitive runners. The results provided an age range for the demographic and that many people have a good aptitude for using technology. The survey also confirmed assumptions about enjoyment and motivation with <strong>61.3%</strong> of people scoring 5 or lower out of 10, 10 being highly motivated to run. A persona based on the results can be created to help understand the user goals and frustrations and outline design/system requirements, experience maps and a service blueprint to aid the design.</p>
         </div>
 
         <div className="project-section" id="persona">
@@ -87,15 +87,15 @@ const Stamp = () => (
 
         <div className="project-section">
             <h3 className="sub-title">Users Experience</h3>
-            <p>To outline how Stamp will be able to help the persona reach their goals, an experience map was made. The map starts from an unfit lifestyle where they discover Stamp leading to the ongoing usage where they are getting fitter of to their "blue sky goal" of running a marathon.</p>
+            <p>To outline how Stamp will be able to help the persona reach their goals, I used an experience map. The map starts from an unfit lifestyle where they discover Stamp leading to the ongoing usage where they are getting fitter of to their "blue sky goal" of running a marathon.</p>
             <div className="image-holder">
                 <img src={ExperienceMap} alt="Experience Map" />
             </div>
-            <p className="mid-p">A journey map was also made to mark pivot points for the personas emotions while using Stamp from short-term to long-term/continuous usage and how their frustrations are tackled.</p>
+            <p className="mid-p">A journey map was also made to mark pivot points for the persona's emotions while using Stamp from short-term to long-term/continuous usage and how their frustrations are tackled.</p>
             <div className="image-holder">
                 <img src={JourneyMap} alt="Journey Map" />
             </div>
-            <p className="mid-p">Lastly a service blueprint was used to specify the actions when using Stamp which outlines the touchpoints and events to help decide what screens were needed to begin the design and prototyping</p>
+            <p className="mid-p">Lastly, a service blueprint was used to specify the actions when using Stamp which outlines the touchpoints and events to help decide what screens were needed to begin the design and prototyping.</p>
             <div className="image-holder">
                 <img src={ServiceBlueprint} alt="Service Blueprint"/>
             </div>
@@ -111,7 +111,7 @@ const Stamp = () => (
 
         <div className="project-section">
             <h3 className="sub-title">Ideation</h3>
-            <p>The idea for the design was generated from a user-centered approach using the experience map, journey map and service blueprint a foundation of needs to reach the users goals. The implementation of area control was developed from war-type board games with maps of the world, so why not use the real world as the map for area control?</p>
+            <p>The idea for the design was generated from a user-centred approach using the experience map, journey map and service blueprint a foundation of needs to reach the user's goals. The implementation of area control was developed from war-type board games with maps of the world, so why not use the real world as the map for area control?</p>
         </div>
     </div>
 
@@ -122,7 +122,7 @@ const Stamp = () => (
     <div className="container">
         <div className="project-section">
             <h3 className="sub-title">Prototype</h3>
-            <p>The final design turned took some inspiration from the 80s science fiction movie, Tron, using neon colours to represent different players and their areas that they control. The overall interface has minimal buttons with a straight-forward user experience giving the user the immediate choice to run. Exploring further into the app, you will find a friends list and leaderboard where users can track the difference in performance with other players. Lastly the to bring the focus back to fitness goals each run will store a running log so that users will be able to see their progress.</p>
+            <p>The final design turned took some inspiration from the 80s science fiction movie, Tron, using neon colours to represent different players and their areas that they control. The overall interface has minimal buttons with a straight-forward user experience giving the user the immediate choice to run. Exploring further into the app, you will find a friends list and leaderboard where users can track the difference in performance with other players. Lastly, to bring the focus back to fitness goals each run will store a running log so that users will be able to see their progress.</p>
 
             <div className="image-holder">
                 <img src={StampPrototypeA} alt="Stamp Prototype 1"/>
@@ -133,7 +133,7 @@ const Stamp = () => (
 
         <div className="project-section">
             <h3 className="sub-title">Reflection</h3>
-            <p>As a university project this was something I was pretty excited about, mainly because the process of producing a new product showed the feasability of it actually being made. I enforced an empathetic user-centered approach of a product designer while combining the research and implentation of a UX researcher which really helped me understand the ins and outs of creating with a goal in mind. From a design perspective I pretty much had free-reign which is always nice, but rather than doing what I feel would suit me, the persona really outlined the brand identity and UI. </p>
+            <p>As a university project, this was something I was pretty excited about, mainly because the process of producing a new product showed the feasibility of it actually being made. I enforced an empathetic user-centred approach of a product designer while combining the research and implementation of a UX researcher which really helped me understand the ins and outs of creating with a goal in mind. From a design perspective I pretty much had free-reign which is always nice, but rather than doing what I feel would suit me, the persona really outlined the brand identity and UI.</p>
         </div>
     </div>
   </Layout>

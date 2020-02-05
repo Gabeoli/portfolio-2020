@@ -5,12 +5,21 @@ import StampFeature from "../../images/projects/stamp/Stamp_Feature_1.jpg"
 import OkoachFeature from "../../images/projects/okoach/Okoach_Feature.jpg"
 import HSBCFeature from "../../images/projects/hsbc/HSBC_Feature.jpg"
 import GBKFeature from "../../images/projects/gbk/GBK_Feature.jpg"
+import HLPFeature from "../../images/projects/hlp/HLP_Feature.jpg"
 
 class ProjectList extends Component {
     render() {
 
         return (
             <ul className="project-list">
+                <ProjectListItem
+                    feature={HLPFeature}
+                    projectName="Hello Lamp Post"
+                    link="HelloLampPost"
+                >
+                    Website Re-Design & Brand Refresh
+                </ProjectListItem>
+
                 <ProjectListItem
                     feature={StampFeature}
                     projectName="Stamp"
