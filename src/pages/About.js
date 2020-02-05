@@ -9,7 +9,9 @@ const About = () => (
     <SEO title="About" />
     <div className="about-page">
       <div className="container">
-        
+        <div className="centered-text">
+          
+        </div>
       </div>
     </div>
   </Layout>

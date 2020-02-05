@@ -41,7 +41,8 @@
                             a {
                                 color: White;
                                 text-decoration: none;
-                                cursor: pointer;    
+                                cursor: pointer;  
+                                transition: ease-in-out 0.3s;  
                             }
 
                             span {
@@ -51,8 +52,9 @@
                             letter-spacing: 1px;
                             }
 
-                            &:hover {
-
+                            a:hover {
+                                color: darken(#FFFFFF, 50%);
+                                transition: ease-in-out 0.3s;  
                             }
 
                         }
