@@ -8,7 +8,7 @@ class HeroSection extends Component {
                         <h2>Gabriel Dean Olivar.</h2>
                         <h1>Product + UX Designer.</h1>
                         
-                        <p className="big-text">Tackling problems through design with a user-centered approach.</p>
+                        <p className="big-text">Tackling problems through design with a user-centred approach.</p>
                     </div>
             </section>
         )

@@ -27,7 +27,7 @@ const GBKCareers = () => (
 
     <div className="container">
         <div className="background-text">
-            <p>GBK's careers website aims to tell the story about the humble begginings of the chain while also listing the available positions throughout all of their restaurants.</p>
+            <p>GBK's careers website aims to tell the story about the humble beginnings of the chain while also listing the available positions throughout all of their restaurants.</p>
         </div>
 
         <div className="project-details">
