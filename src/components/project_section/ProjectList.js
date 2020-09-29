@@ -22,7 +22,7 @@ class ProjectList extends Component {
 
                 <ProjectListItem
                     feature={StampFeature}
-                    projectName="Stamp"
+                    projectName="Stamp LOL"
                     link="Stamp"
                 >
                     Gamified Running App
