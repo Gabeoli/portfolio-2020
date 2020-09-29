@@ -12,17 +12,17 @@ class ProjectList extends Component {
 
         return (
             <ul className="project-list">
-                {/* <ProjectListItem
+                <ProjectListItem
                     feature={HLPFeature}
                     projectName="Hello Lamp Post"
                     link="HelloLampPost"
                 >
                     Website Re-Design & Brand Refresh
-                </ProjectListItem> */}
+                </ProjectListItem>
 
                 <ProjectListItem
                     feature={StampFeature}
-                    projectName="Stamp LOL"
+                    projectName="Stamp"
                     link="Stamp"
                 >
                     Gamified Running App
