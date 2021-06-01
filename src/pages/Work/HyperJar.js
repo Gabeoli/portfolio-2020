@@ -257,6 +257,7 @@ const HyperJar = () => (
           making components should be a lot more efficient and benefit future
           designers in knowing how and where to use certain components.
         </p>
+
         <p>
           Lastly, there were a couple of challenges with updating the payments
           functionality. A big challenge was taking something that was already
