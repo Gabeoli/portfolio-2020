@@ -5,7 +5,7 @@ import SEO from "../../components/seo"
 
 import Hero from "../../images/projects/hyperjar/Hyperjar_Hero.png"
 import FullWidth from "../../images/projects/hyperjar/Hyperjar_PaymentsBanner.png"
-import OldColours from "../../images/projects/hyperjar/HyperJar_OldColours.png"
+import OldColours from "../../images/projects/hyperjar/Hyperjar_OldColours.png"
 import NewColours from "../../images/projects/hyperjar/Hyperjar_NewColours.png"
 import Homepage from "../../images/projects/hyperjar/Hyperjar_HomeNewColours.png"
 import Jars from "../../images/projects/hyperjar/Hyperjar_JarNewColours.png"
